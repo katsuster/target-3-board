@@ -35,3 +35,8 @@ TBD
   * Motor driver board, used to drive servo motors
   * Supplies power to the servo motors through its own power switch
   * Passes the PWM signals from the server board through to the servo motors
+
+
+## Other documents
+
+* [Parts list](doc/parts_jlcpcb.md)
