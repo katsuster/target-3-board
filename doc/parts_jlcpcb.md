@@ -44,8 +44,6 @@ Check the rotation and position in the JLCPCB preview again after replacing part
 |--|--|--|
 | Pin header       | 2.54mm pitch, 1x10 and 1x12 | Holding the M5Stamp C3 |
 | XH connector     | JST XH, 2.5mm pitch, right angle (S6B-XH-A for server, S4B-XH-A for remote) | Server: to motor boards, Remote: to external buttons |
-| Resistor (5.1k)  | 5.1kΩ ±10% or better, 0603 | USB-C CC pull-down (Rd), required for 5V from USB-C chargers |
-| Resistor (10k)   | 10kΩ ±5% or better, 0603 | Server: PWR_EN pull-down, Remote: button pull-up |
 | Diode (TVS)      | Bidirectional, VRWM >= 5V, VBR(min) >= 5.5V, IPP >= 6A (8/20us), SOD-323 | ESD and surge protection of USB-C VBUS |
 | Diode (Schottky) | VR >= 20V, IF >= 1A, SOD-123, low VF | Reverse current protection between USB-C VBUS and the 5V pin of M5Stamp C3 |
 | USB-C            | Power only 6-pin (VBUS, GND, CC1, CC2), pads compatible with GCT USB4125-xx-x 6P | Power input |
